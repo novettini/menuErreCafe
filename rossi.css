@@ -1,12 +1,18 @@
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+}
 #wrapper {
   margin-top: 2%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   background-repeat: no-repeat;
   align-items: start;
-  margin-left: 5%;
-  margin-right: 5%;
-  grid-column-gap: 5%;
+  margin-left: 3%;
+  margin-right: 3%;
+  grid-column-gap: 2%;
 }
 
 caption {
@@ -15,12 +21,6 @@ caption {
 }
 
 th,
-td {
-  /* border: 1px solid #ddd; */
-  font-family: "Myriad Pro", "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial;
-  color: black;
-  font-size: small;
-}
 
 #uno {
   background-image: url(imagenFondo1-02.png);
@@ -73,13 +73,12 @@ td {
 #pagina1,
 #pagina2,
 #pagina3,
+#pagina4,
 #pagina5,
 #pagina6 {
-  min-width: 500px;
+  width: 30%;
   }
-  #pagina4{
-    width:360;
-  }
+
 
 #pagina1 {
   background-image: url(imagenFondo1-02.png);
@@ -140,7 +139,7 @@ td {
 
 #erre {
   height: 1050px;
-  width: 490px;
+  width: 426px;
 }
 
 #footer {
@@ -224,6 +223,6 @@ tr {
 
 @media only screen and (max-width: 600px) {
   body {
-      zoom: 30%;
+      zoom: 50%;
   }
 }
