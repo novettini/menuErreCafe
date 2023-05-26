@@ -15,6 +15,12 @@ caption {
 }
 
 th,
+td {
+  /* border: 1px solid #ddd; */
+  font-family: "Myriad Pro", "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial;
+  color: black;
+  font-size: small;
+}
 
 #uno {
   background-image: url(imagenFondo1-02.png);
@@ -35,7 +41,7 @@ th,
 th,
 td {
   /* border: 1px solid #ddd; */
-  font-family: "Myriad Pro", "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", "Helvetica", "Arial", "sans-serif;
+  font-family: "Myriad Pro", "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial;
   color: black;
   font-size: medium;
 }
@@ -70,18 +76,23 @@ td {
 #pagina5,
 #pagina6 {
   min-width: 500px;
-}
-#pagina4{width:360px;
-}
+  }
+  #pagina4{
+    width:360;
+  }
+
 #pagina1 {
   background-image: url(imagenFondo1-02.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position-x: -24px;
+  grid-column: 1/3;
+  grid-row:1;
 }
 
 #tabla1,
 #tabla2 {
+  max-width:357px;
   padding-top: 10%;
 }
 
@@ -97,6 +108,8 @@ td {
   background-size: contain;
   background-repeat: no-repeat;
   background-position-x: -24px;
+  grid-column: 2/3;
+  grid-row: 1;
 }
 
 #pagina3 {
@@ -115,6 +128,7 @@ td {
   background-repeat: no-repeat;
   background-position-x: -24px;
   background-position-y: 11px;
+
 }
 
 #lateral {
@@ -127,7 +141,6 @@ td {
 #erre {
   height: 1050px;
   width: 490px;
-
 }
 
 #footer {
@@ -208,8 +221,9 @@ a {
 tr {
   width: 360px;
 }
+
 @media only screen and (max-width: 600px) {
-    body {
-        zoom: 30%;
-    }
+  body {
+      zoom: 30%;
+  }
 }
