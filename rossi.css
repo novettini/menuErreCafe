@@ -76,8 +76,7 @@ td {
 #pagina3,
 #pagina4,
 #pagina5 {
-  min-width: 364px;
-  max-width: 394px;
+  min-width: 500px;
 }
 
 #pagina1 {
@@ -132,7 +131,8 @@ td {
 
 #erre {
   height: 1050px;
-  width: 450px;
+  width: 490px;
+
 }
 
 #footer {
