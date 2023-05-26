@@ -74,12 +74,12 @@ td {
 #pagina1,
 #pagina2,
 #pagina3,
-#pagina4,
 #pagina5,
 #pagina6 {
   min-width: 500px;
 }
-
+#pagina4{width:360px;
+}
 #pagina1 {
   background-image: url(imagenFondo1-02.png);
   background-size: contain;
@@ -118,7 +118,7 @@ td {
 
 #pagina4 {
   background-image: url(imagenFondo2-01.png);
-  background-size: 400px;
+  background-size: 360px;
   background-repeat: no-repeat;
   background-position-x: -24px;
   background-position-y: 11px;
