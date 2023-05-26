@@ -1,0 +1,215 @@
+#wrapper {
+  margin-top: 2%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-repeat: no-repeat;
+  align-items: start;
+  margin-left: 5%;
+  margin-right: 5%;
+  grid-column-gap: 5%;
+
+}
+
+caption {
+  text-align: start;
+  margin-left: 2%;
+}
+
+th,
+td {
+  /* border: 1px solid #ddd; */
+  font-family: "Myriad Pro", "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial;
+  color: black;
+  font-size: small;
+}
+
+#uno {
+  background-image: url(imagenFondo1-02.png);
+  background-size: contain;
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+
+#coment {
+  font-size: smaller;
+  color: rgb(117, 116, 116);
+}
+
+.textoTapa {
+  margin-top: 22%;
+}
+
+th,
+td {
+  /* border: 1px solid #ddd; */
+  font-family: "Myriad Pro", "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial;
+  color: black;
+  font-size: medium;
+}
+
+.sandwich {
+  max-width: 394px;
+}
+
+.adicionales {
+  text-align: center;
+}
+
+.genero {
+  font-weight: bolder;
+  font-size: medium;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.puntos {
+  text-align: center;
+  font-weight: bold;
+  font-size: medium;
+  align-items: center;
+  vertical-align: top;
+  padding-bottom: 2%;
+}
+
+#pagina1,
+#pagina2,
+#pagina3,
+#pagina4,
+#pagina5 {
+  min-width: 364px;
+  max-width: 394px;
+}
+
+#pagina1 {
+  background-image: url(imagenFondo1-02.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: -24px;
+}
+
+#tabla1,
+#tabla2 {
+  padding-top: 10%;
+}
+
+.titulo {
+  padding-bottom: 4%;
+  font-weight: bold;
+  font-size: medium;
+
+}
+
+#pagina2 {
+  background-image: url(imagenFondo1-03.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: -24px;
+}
+
+#pagina3 {
+  background-image: url(imagenFondo1-04.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: -6px;
+  background-position-y: -20px;
+  min-height: 1180px;
+  background-size: 420px 1150px;
+}
+
+#pagina4 {
+  background-image: url(imagenFondo2-01.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: -24px;
+}
+
+#lateral {
+  background-image: url("imagenFondo2-03-02.png");
+  background-repeat: no-repeat;
+  height: 894px;
+  width: 394px;
+}
+
+#erre {
+  height: 1050px;
+  width: 450px;
+}
+
+#footer {
+  align-items: center;
+  text-align: center;
+  width: 1500px
+}
+
+#wrapperFoot {
+  margin-bottom: 10%;
+  display: grid;
+  grid-template-columns: 1;
+  justify-items: stretch;
+  background-repeat: no-repeat;
+  align-items: start;
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 1500px
+}
+
+#pagina5 {
+  background-image: url(imagenFondo2-02.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: -24px;
+}
+
+.distinto {
+  text-align: center;
+  padding-bottom: 4%;
+  padding-top: 4%;
+}
+
+.ultimoParrafo {
+  text-align: center;
+}
+
+
+#tabla6 {
+  background-image: url(imagenFondo2-04.png);
+  background-size: 400px;
+  background-repeat: no-repeat;
+  background-position-x: -25px;
+}
+
+
+.distinto {
+  text-align: center;
+  padding-bottom: 4%;
+  padding-top: 4%;
+}
+
+#adicionales {
+  margin-left: 5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+#insta {
+  font-size: x-large;
+  color: black;
+}
+
+
+#descripcion {
+  table-layout: fixed;
+  width: 300px;
+  word-wrap: break-word;
+}
+
+#precio {
+  table-layout: fixed;
+  width: 20%;
+}
+
+tr {
+  width: 360px;
+}
