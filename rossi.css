@@ -1,5 +1,5 @@
 body{
-zoom:30%
+
 }
 
 #wrapper {
@@ -19,12 +19,6 @@ caption {
 }
 
 th,
-td {
-  /* border: 1px solid #ddd; */
-  font-family: "Myriad Pro", "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial;
-  color: black;
-  font-size: small;
-}
 
 #uno {
   background-image: url(imagenFondo1-02.png);
@@ -45,7 +39,7 @@ td {
 th,
 td {
   /* border: 1px solid #ddd; */
-  font-family: "Myriad Pro", "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial;
+  font-family: "Myriad Pro", "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", "Helvetica", "Arial", "sans-serif;
   color: black;
   font-size: medium;
 }
@@ -217,4 +211,9 @@ a {
 
 tr {
   width: 360px;
+}
+@media only screen and (max-width: 600px) {
+    body {
+        zoom: 30%;
+    }
 }
