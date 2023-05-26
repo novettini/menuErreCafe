@@ -13,6 +13,7 @@ body {
   margin-left: 3%;
   margin-right: 3%;
   grid-column-gap: 2%;
+  justify-items:start;
 }
 
 caption {
